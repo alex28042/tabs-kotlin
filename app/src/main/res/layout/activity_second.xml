@@ -10,13 +10,13 @@
         android:id="@+id/buttonA1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="248dp"
-        android:layout_marginEnd="163dp"
-        android:layout_marginBottom="107dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="618dp"
         android:text="Atras"
-        app:layout_constraintBottom_toTopOf="@+id/buttonD2"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonD2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,13 +24,28 @@
         android:id="@+id/buttonD2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="107dp"
-        android:layout_marginEnd="163dp"
-        android:layout_marginBottom="280dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="618dp"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonA1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/secondTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="493dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonA1" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
